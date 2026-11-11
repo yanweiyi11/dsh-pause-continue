@@ -1,7 +1,7 @@
 {
   "name": "dsh-pause-continue",
   "version": "1.0.0",
-  "description": "Pause a running DeepSeek Harness answer and continue it from the break point. · 在回答生成时暂停，并从断点继续生成。",
+  "description": "Codex-style pause and continue for DeepSeek Harness: stop a running answer and resume from the break point. Modelled on Codex and Cursor. · Codex 式暂停与继续：在回答生成时暂停，并从断点接着生成。交互参考 Codex 与 Cursor。",
   "type": "module",
   "license": "MIT",
   "author": "yanweiyi11",

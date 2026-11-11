@@ -1,8 +1,8 @@
 # dsh-pause-continue
 
-Pause a running DeepSeek Harness answer and continue it from the break point.
+Codex 式暂停与继续：把 Codex、Cursor 那种随时打断、再接着写的手感，搬进 DeepSeek Harness。
 
-在 DeepSeek Harness 回答生成过程中暂停，并从断点继续生成。
+Pause a running DeepSeek Harness answer and continue it from the break point, with a Codex-style control. The interaction is modelled on Codex and Cursor.
 
 ## 功能
 
