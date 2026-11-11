@@ -12,6 +12,20 @@ Pause a running DeepSeek Harness answer and continue it from the break point.
 - 暂停和继续的视觉衔接通过 Chat DOM 规则完成，继续轮的中间状态行会隐藏，最终回答接在原位置。
 - 状态按会话保存在 profile 目录的 `dsh-pause-continue-state.json`。
 
+## 截图
+
+**生成中，发送按钮变成暂停**
+
+![生成中](assets/screenshots/01-generating.png)
+
+**暂停后，按钮变成继续；也可以直接输入新消息**
+
+![已暂停](assets/screenshots/02-paused.png)
+
+**继续后，从断点接着生成，旧过程收起**
+
+![继续后](assets/screenshots/03-resumed.png)
+
 ## 安装
 
 通过 DSH 插件管理器安装：
