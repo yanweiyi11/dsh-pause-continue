@@ -16,15 +16,15 @@ Pause a running DeepSeek Harness answer and continue it from the break point.
 
 **生成中，发送按钮变成暂停**
 
-![生成中](assets/screenshots/01-generating.png)
+<img src="assets/screenshots/01-generating.png" width="760" alt="生成中，发送按钮变为暂停">
 
 **暂停后，按钮变成继续；也可以直接输入新消息**
 
-![已暂停](assets/screenshots/02-paused.png)
+<img src="assets/screenshots/02-paused.png" width="760" alt="已暂停，按钮变为继续">
 
 **继续后，从断点接着生成，旧过程收起**
 
-![继续后](assets/screenshots/03-resumed.png)
+<img src="assets/screenshots/03-resumed.png" width="760" alt="继续后，从断点接着生成">
 
 ## 安装
 
