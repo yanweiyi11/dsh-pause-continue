@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "Pause and resume",
+    "description": "Pause an answer while it is being generated and continue it from the break point."
+  },
+  "pause.pause": "Pause generation",
+  "pause.resume": "Continue generation"
+}

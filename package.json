@@ -1,0 +1,60 @@
+{
+  "name": "dsh-pause-continue",
+  "version": "1.0.0",
+  "description": "Pause a running DeepSeek Harness answer and continue it from the break point. · 在回答生成时暂停，并从断点继续生成。",
+  "type": "module",
+  "license": "MIT",
+  "author": "yanweiyi11",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanweiyi11/dsh-pause-continue.git"
+  },
+  "homepage": "https://github.com/yanweiyi11/dsh-pause-continue",
+  "bugs": {
+    "url": "https://github.com/yanweiyi11/dsh-pause-continue/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "pause",
+    "resume",
+    "continue"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "pause-store.js",
+    "rpc-channel.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  },
+  "icon": "./icon.svg"
+}

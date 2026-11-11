@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "title": "暂停与继续",
+    "description": "在回答生成过程中暂停，并从断点继续生成。"
+  },
+  "pause.pause": "暂停生成",
+  "pause.resume": "继续生成"
+}
